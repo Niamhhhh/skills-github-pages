@@ -1,1 +1,15 @@
+#this text was from the github tutorial for making a blog. Seems to be entire scope because there's no further arguments.
+
 theme: minima
+
+#following text is taken from the bottom example at https://jekyllrb.com/docs/configuration/front-matter-defaults/
+
+defaults:
+-   
+  scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: "default"
+    author: "Niamh"
+  
